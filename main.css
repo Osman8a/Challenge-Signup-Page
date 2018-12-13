@@ -29,6 +29,7 @@ img {
 }
 
 .form-signup fieldset h1 {
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 40px;
@@ -39,10 +40,30 @@ img {
     margin-bottom: 20px;
 }
 
-.form-signup input {
+.form-signup input,
+button {
     display: block;
     width: 320px;
     border: 2px solid #E7E7E7;
     padding: 15px;
     margin-bottom: 20px;
+}
+
+.form-signup button {
+    background-color: #65C470;
+    height: 55px;
+    border: 2px solid #65C470;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.form-signup p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.form-signup a {
+    color: white;
 }
